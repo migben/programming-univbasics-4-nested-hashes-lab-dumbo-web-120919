@@ -130,7 +130,8 @@ def adding_to_dennis
         }
      }
      
-     programmer_hash[:dennis_ritchie][:languages] << "Ruby"
+     # wrote ruby first instead of assembly
+     programmer_hash[:dennis_ritchie][:languages] << "Assembly"
      programmer_hash
 
 end
